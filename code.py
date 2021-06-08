@@ -7,7 +7,11 @@ os.system("pip install notion")
 
 import keyring
 
-with open("values.json") as data:
+codeFilePath = os.path.realpath(__file__)
+parentFilePath = os.path.abspath(os.path.join(codeFilePath,os.pardir))
+jsonFilePath = os.path.join(parentFilePath,"values.json")
+
+with open(jsonFilePath) as data:
     d = json.load(data)
 
 for key,value in d.items():
