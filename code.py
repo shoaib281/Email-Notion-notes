@@ -60,8 +60,6 @@ while amountOfNotes < int(numberOfNotes):
 
 import smtplib
 from email.message          import EmailMessage
-from email.headerregistry   import Address
-from email.utils            import make_msgid
 
 senderEmail   = d["EmailSender"]
 receiverEmail = d["EmailReceiver"]
