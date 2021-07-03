@@ -1,5 +1,5 @@
 # Email-Notion-notes
-_Program that emails random notes from notion to you_
+_Program that emails random notes from notion_
 
 #### Installation instructions
 
